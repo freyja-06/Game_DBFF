@@ -14,6 +14,8 @@ Di chuyển: Sử dụng phím A/D hoặc Mũi tên Trái/Phải để di chuy�
 Nhảy: Nhấn phím Spacebar để Songoku nhảy lên, giúp né chướng ngại vật hoặc lấy các ngôi sao ở trên cao.
 # Luồng Chơi Chính:
 Bắt đầu: Người chơi chọn "New Game" từ Main Menu. Nhạc nền game bắt đầu.
+![image](https://github.com/user-attachments/assets/404fa1ee-6ba8-4b66-8fc9-f948ea425660)
+
 
 Gameplay: Songoku xuất hiện trên màn chơi.
 
@@ -37,7 +39,7 @@ Màn hình Game Over hiện ra với điểm số cuối cùng, high score, và 
 
 Nếu điểm hiện tại vượt qua high score, high score mới sẽ được lưu lại.
 
-Yếu tố Thử thách:
+# Yếu tố Thử thách:
 
 Tốc độ và Tần suất: Tốc độ rơi và tần suất xuất hiện của quả cầu lửa có thể tăng dần theo thời gian (mặc dù hiện tại có vẻ là ngẫu nhiên cố định) để tăng độ khó.
 

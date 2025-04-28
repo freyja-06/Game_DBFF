@@ -18,26 +18,45 @@ Bắt đầu: Người chơi chọn "New Game" từ Main Menu. Nhạc nền game
 
 
 Gameplay: Songoku xuất hiện trên màn chơi.
+![image](https://github.com/user-attachments/assets/cbb26bba-9cd9-42e4-aac0-f8ed6c0c6428)
 
-Quả cầu lửa (Fireball): Các quả cầu lửa màu xanh bắt đầu rơi ngẫu nhiên từ phía trên màn hình với tốc độ khác nhau. Người chơi phải liên tục di chuyển và nhảy để né chúng. Va chạm với quả cầu lửa sẽ dẫn đến Game Over.
 
-Ngôi sao (Star): Các ngôi sao cũng rơi từ trên xuống, thường chậm hơn và có thể có quỹ đạo hơi khác so với quả cầu lửa. Người chơi cần di chuyển hoặc nhảy để chạm vào ngôi sao. Mỗi ngôi sao ăn được sẽ cộng thêm điểm (ví dụ: 10 điểm) và phát ra âm thanh thu thập.
+Quả cầu lửa (Fireball): Các quả cầu lửa màu xanh bắt đầu rơi ngẫu nhiên từ phía trên màn hình với tốc độ khác nhau. 
+
+![image](https://github.com/user-attachments/assets/11edbef1-535d-4e5f-abc6-b6083db5141c)
+
+Người chơi phải liên tục di chuyển và nhảy để né chúng. Va chạm với quả cầu lửa sẽ dẫn đến Game Over.
+
+
+
+Ngôi sao (Star): Các ngôi sao cũng rơi từ trên xuống, thường chậm hơn và có thể có quỹ đạo hơi khác so với quả cầu lửa. Người chơi cần di chuyển hoặc nhảy để chạm vào ngôi sao. Mỗi ngôi sao ăn được sẽ cộng thêm điểm (10 điểm) và phát ra âm thanh thu thập.
 
 Điểm số: Điểm hiện tại và điểm cao nhất (High Score) được hiển thị ở góc trên bên trái màn hình.
 Điểm hiện tại tăng lên khi ăn sao.
+
+![image](https://github.com/user-attachments/assets/9957944c-2748-4aa4-8ae1-fe33362834cf)
+
+
+
 Tạm dừng (Pause): Người chơi có thể nhấn phím ESC hoặc P (hoặc click nút Pause) để tạm dừng trò chơi. Gameplay sẽ đóng băng và một menu hiện ra cho phép tiếp tục ("Continue"), chơi lại ("New Game"), hoặc thoát về menu chính ("Exit").
+
+![image](https://github.com/user-attachments/assets/6a8028de-c06f-4b1a-9a74-fcef4b451e2f)
+
 
 Kết thúc (Game Over):
 Khi Songoku va chạm với một quả cầu lửa.
 
-Nhân vật dừng lại, phát animation bị đánh một lần và đứng yên trên mặt đất.
-Âm thanh bị đánh được phát.
+Nhân vật bị hạ, phát animation bị đánh một lần và đứng yên trên mặt đất.
 
 Nhạc nền game dừng.
 
 Màn hình Game Over hiện ra với điểm số cuối cùng, high score, và các tùy chọn "Restart" hoặc "Main Menu".
 
 Nếu điểm hiện tại vượt qua high score, high score mới sẽ được lưu lại.
+
+
+![image](https://github.com/user-attachments/assets/e1f689de-0544-487c-826b-84790a9844e1)
+
 
 # Yếu tố Thử thách:
 

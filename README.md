@@ -1,3 +1,7 @@
+# Tác giả 
+Họ tên sinh viên: Nguyễn Quốc Hoàn
+MSSV: 24020135
+
 # Dragon ball: Fireball Fury
 
 Hòa mình vào thế giới pixel đầy màu sắc! Điều khiển Songoku nhanh nhẹn né tránh những quả cầu lửa đang lao tới từ bầu trời. Thu thập thật nhiều ngôi sao lấp lánh để tăng điểm. Phản xạ của bạn nhanh đến đâu? Hãy thử sức và lập kỷ lục điểm số cao nhất!
@@ -67,3 +71,22 @@ Phản xạ: Người chơi cần phản xạ nhanh để né các quả cầu l
 Quản lý vị trí: Vừa phải né chướng ngại vật, vừa phải di chuyển để ăn sao đòi hỏi sự tính toán vị trí hợp lý.
 
 Game mang lại trải nghiệm arcade cổ điển, đòi hỏi sự tập trung và kỹ năng né tránh nhanh nhẹn, kết hợp với yếu tố thu thập điểm để tạo động lực chơi lại và phá kỷ lục.
+
+# Quá trình thiết kế game
+
+
+
+# Ngưỡng điểm xứng đáng và các lý do bảo vệ ngưỡng điểm đó
+Em đánh giá rằng game của em phù hợp với ngưỡng điểm 7.5 đến 8.5 vì em đạt 2/3 tiêu chí của barem điểm là:
+  Tiêu chí (2) - Game tự viết có đồ họa đơn giản: Game có đồ họa (sprite, animation).
+  Tiêu chí (3) - Game phát triển từ code mẫu nhưng có thay đổi đáng kể về nội dung và bổ sung đáng kể các tính năng mới: Em đã bổ sung nhiều tính năng như 
+      1. Kiến trúc ECS: Tự xây dựng và áp dụng hoàn chỉnh.
+      2. State Machine: Quản lý các trạng thái game khác nhau.
+      3. UI đầy đủ: Menu chính, menu pause, game over screen, điểm số, high score (bao gồm cả lưu file).
+      4. Hệ thống Animation chi tiết: Animation thay đổi theo hành động và trạng thái vật lý của nhân vật.
+      5. Gameplay: Spawning kẻ địch/vật phẩm, cơ chế tính điểm, điều kiện thua.
+      6. Âm thanh: Tích hợp cả nhạc nền và hiệu ứng âm thanh.
+      7. Vật lý & Va chạm: Xử lý va chạm với nền đất, tường, vật phẩm, kẻ địch.
+      8. Đánh giá theo số lượng tính năng tự làm/học: Game này có đủ các yếu tố được liệt kê: âm thanh, nhạc nền, texture, hoạt hình, chuyển động (vật lý), thuật toán (va chạm, spawning).
+
+

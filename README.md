@@ -78,16 +78,28 @@ Game mang lại trải nghiệm arcade cổ điển, đòi hỏi sự tập trun
 
 
 # Ngưỡng điểm xứng đáng và các lý do bảo vệ ngưỡng điểm đó
+
 Em đánh giá rằng game của em phù hợp với ngưỡng điểm 7.5 đến 8.5 vì em đạt 2/3 tiêu chí của barem điểm là:
+
   Tiêu chí (2) - Game tự viết có đồ họa đơn giản: Game có đồ họa (sprite, animation).
+  
   Tiêu chí (3) - Game phát triển từ code mẫu nhưng có thay đổi đáng kể về nội dung và bổ sung đáng kể các tính năng mới: Em đã bổ sung nhiều tính năng như 
+  
       1. Kiến trúc ECS: Tự xây dựng và áp dụng hoàn chỉnh.
-      2. State Machine: Quản lý các trạng thái game khác nhau.
+      
+      2. State Machine: Quản lý các trạng thái gameác nhau.
+      
       3. UI đầy đủ: Menu chính, menu pause, game over screen, điểm số, high score (bao gồm cả lưu file).
+      
       4. Hệ thống Animation chi tiết: Animation thay đổi theo hành động và trạng thái vật lý của nhân vật.
+      
       5. Gameplay: Spawning kẻ địch/vật phẩm, cơ chế tính điểm, điều kiện thua.
+      
       6. Âm thanh: Tích hợp cả nhạc nền và hiệu ứng âm thanh.
+      
       7. Vật lý & Va chạm: Xử lý va chạm với nền đất, tường, vật phẩm, kẻ địch.
+      
       8. Đánh giá theo số lượng tính năng tự làm/học: Game này có đủ các yếu tố được liệt kê: âm thanh, nhạc nền, texture, hoạt hình, chuyển động (vật lý), thuật toán (va chạm, spawning).
+      
 
 

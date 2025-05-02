@@ -72,9 +72,9 @@ Quản lý vị trí: Vừa phải né chướng ngại vật, vừa phải di c
 
 Game mang lại trải nghiệm arcade cổ điển, đòi hỏi sự tập trung và kỹ năng né tránh nhanh nhẹn, kết hợp với yếu tố thu thập điểm để tạo động lực chơi lại và phá kỷ lục.
 
-# Quá trình thiết kế game
+# Thiết kế game
 
-
+[[Cách làm hiệu ứng từng cây, zombie trong game]](1sdlTest/Source Code, Âm thanh và Đồ họa.md)
 
 # Ngưỡng điểm xứng đáng và các lý do bảo vệ ngưỡng điểm đó
 Em đánh giá rằng game của em phù hợp với ngưỡng điểm 7.5 đến 8.5 vì em đạt 2/3 tiêu chí của barem điểm là:

@@ -100,6 +100,10 @@ public:
 		return *static_cast<T*>(ptr);
 	}
 
+	void addGroup(Group mGroup) {
+		groupBitset[mGroup] = true;
+		manager.AddToGroup(this, mGroup);
+	}	
 };
 
 class Manager {

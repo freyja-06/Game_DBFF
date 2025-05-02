@@ -74,7 +74,8 @@ Game mang lại trải nghiệm arcade cổ điển, đòi hỏi sự tập trun
 
 # Thiết kế game
 
-[[Cách làm hiệu ứng từng cây, zombie trong game]](Source Code, Âm thanh và Đồ họa.md)
+[Source code, nguồn các tài nguyên game và cách tạo SpriteSheet](https://github.com/freyja-06/Game_DBFF/blob/main/1sdlTest/Source%20Code%2C%20%C3%82m%20thanh%20v%C3%A0%20%C4%90%E1%BB%93%20h%E1%BB%8Da.md)
+
 
 # Ngưỡng điểm xứng đáng và các lý do bảo vệ ngưỡng điểm đó
 Em đánh giá rằng game của em phù hợp với ngưỡng điểm 7.5 đến 8.5 vì em đạt 2/3 tiêu chí của barem điểm là:

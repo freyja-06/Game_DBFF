@@ -245,18 +245,15 @@ public:
 			std::cerr << "Sprite Error: Animation '" << animName << "' not found!" << std::endl;
 		}
 	}
-	// Biến tĩnh renderer (vẫn cần định nghĩa và gán giá trị trong main.cpp)
 	static SDL_Renderer* renderer;
 
 	bool ChangeTexture(const char* texturePath, SDL_Renderer* ren, bool isNowAnimated = false) {
-		animated = isNowAnimated; // Cập nhật trạng thái animated
-		animation.clear();       // Xóa animation cũ nếu có
-		frames = 0;              // Reset frames
-		animIndex = 0;           // Reset animIndex
-		// Tải texture mới
+		animated = isNowAnimated; 
+		animation.clear();      
+		frames = 0;             
+		animIndex = 0;          
 		bool success = setTexture(texturePath, ren);
 		if (success && entity && entity->hasComponent<TransformComponent>()) {
-			// Cập nhật lại srcRect từ transform sau khi đổi texture
 			transform = &entity->getComponent<TransformComponent>();
 			srcRect.w = transform->width;
 			srcRect.h = transform->height;

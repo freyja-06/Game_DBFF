@@ -38,15 +38,12 @@ public:
 		bool currentGroundedState = transform->isGrounded;
 
 		float targetVelocityX = 0.0f;
-		bool isTryingToMove = false;
 		if (keystate[SDL_SCANCODE_A] || keystate[SDL_SCANCODE_LEFT]) {
 			targetVelocityX = -transform->speed;
-			isTryingToMove = true;
 			if (sprite) sprite->spriteFlip = SDL_FLIP_HORIZONTAL;
 		}
 		else if (keystate[SDL_SCANCODE_D] || keystate[SDL_SCANCODE_RIGHT]) {
 			targetVelocityX = transform->speed;
-			isTryingToMove = true;
 			if (sprite) sprite->spriteFlip = SDL_FLIP_NONE;
 		}
 		if (!transform->isGrounded) {

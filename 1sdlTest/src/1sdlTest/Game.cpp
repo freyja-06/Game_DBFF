@@ -330,7 +330,6 @@ void Game::update() {
 				}
 			}
 		}
-	end_collision_check_playing:;
 		if (player && player->isActive() && player->hasComponent<TransformComponent>() && player->hasComponent<ColliderComponent>()) {
 			auto& playerTransform = player->getComponent<TransformComponent>();
 			auto& pCollider = player->getComponent<ColliderComponent>();
@@ -404,7 +403,7 @@ void Game::update() {
 				player->getComponent<SpriteComponent>().UpdateAnimationState();
 			}
 		}
-
+		end_collision_check_playing:;
 		break;
 
 	case GameState::GameOver:
